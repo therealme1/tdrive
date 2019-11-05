@@ -10,8 +10,8 @@
 
 #!/bin/bashset -e
 
-CLIENT_ID=""
-CLIENT_SECRET=""
+CLIENT_ID="946040103599-l3q4ldai31cj150vtdk2mp5lgg3nb9nl.apps.googleusercontent.com"
+CLIENT_SECRET="LpS4NViUoehr3ZDSZkHsKRMi"
 SCOPE=${SCOPE:-"https://docs.google.com/feeds"}
 
 if [ -e $HOME/.googledrive.conf ]
